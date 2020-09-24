@@ -1,4 +1,2 @@
 # game-teste
-Testando setup dessa joça, apenas
-
-:)
+Testando setup dessa joça, apenas.
