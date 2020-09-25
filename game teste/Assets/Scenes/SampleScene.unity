@@ -270,6 +270,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7853501674093248859, guid: 20846782d5ed47740907e6ed21deccd2,
+        type: 3}
+      propertyPath: m_CrouchSpeed
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7853501674093248859, guid: 20846782d5ed47740907e6ed21deccd2,
+        type: 3}
+      propertyPath: m_CrouchDisableCollider
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8184393371408020760, guid: 20846782d5ed47740907e6ed21deccd2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7894019895494883097, guid: 20846782d5ed47740907e6ed21deccd2,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20846782d5ed47740907e6ed21deccd2, type: 3}
 --- !u!1 &1819019400
