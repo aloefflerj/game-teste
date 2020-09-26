@@ -270,8 +270,86 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7853501674093248859, guid: 20846782d5ed47740907e6ed21deccd2,
+        type: 3}
+      propertyPath: OnCrouchEvent.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7853501674093248859, guid: 20846782d5ed47740907e6ed21deccd2,
+        type: 3}
+      propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1162208419}
+    - target: {fileID: 7853501674093248859, guid: 20846782d5ed47740907e6ed21deccd2,
+        type: 3}
+      propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnLanding
+      objectReference: {fileID: 0}
+    - target: {fileID: 7853501674093248859, guid: 20846782d5ed47740907e6ed21deccd2,
+        type: 3}
+      propertyPath: OnLandEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7853501674093248859, guid: 20846782d5ed47740907e6ed21deccd2,
+        type: 3}
+      propertyPath: OnCrouchEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7853501674093248859, guid: 20846782d5ed47740907e6ed21deccd2,
+        type: 3}
+      propertyPath: OnCrouchEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7853501674093248859, guid: 20846782d5ed47740907e6ed21deccd2,
+        type: 3}
+      propertyPath: OnCrouchEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1162208419}
+    - target: {fileID: 7853501674093248859, guid: 20846782d5ed47740907e6ed21deccd2,
+        type: 3}
+      propertyPath: OnCrouchEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnCroching
+      objectReference: {fileID: 0}
+    - target: {fileID: 7853501674093248859, guid: 20846782d5ed47740907e6ed21deccd2,
+        type: 3}
+      propertyPath: OnCrouchEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7292302124096628110, guid: 20846782d5ed47740907e6ed21deccd2,
+        type: 3}
+      propertyPath: animator
+      value: 
+      objectReference: {fileID: 1162208423}
+    - target: {fileID: 7829903712102264054, guid: 20846782d5ed47740907e6ed21deccd2,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2561486523390133121, guid: 20846782d5ed47740907e6ed21deccd2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.451
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 20846782d5ed47740907e6ed21deccd2, type: 3}
+--- !u!114 &1162208419 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7292302124096628110, guid: 20846782d5ed47740907e6ed21deccd2,
+    type: 3}
+  m_PrefabInstance: {fileID: 802526389}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bb4041782e10f049bba2329cbd81f12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &1162208423 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4220746551801439847, guid: 20846782d5ed47740907e6ed21deccd2,
+    type: 3}
+  m_PrefabInstance: {fileID: 802526389}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1819019400
 GameObject:
   m_ObjectHideFlags: 0
