@@ -1,0 +1,6 @@
+--Brainstorm--
+- continuous movement
+- player have to jump and play the guitar on the floating note
+- jump or double jump
+- enemies nearby die at the played note -> if they encounter the player the player takes one hit
+- thematic -> classical guitar player and ghosts as a duet ->inspiration from marios ghosts levels
