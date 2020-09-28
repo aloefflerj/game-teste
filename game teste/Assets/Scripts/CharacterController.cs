@@ -7,7 +7,7 @@ public class CharacterController : MonoBehaviour
 
     [SerializeField] private Rigidbody2D rigbody;
     /****/
-    [Range(100, 10000)][SerializeField] private float jumpForce = 1000f;
+    [Range(100, 50000)][SerializeField] private float jumpForce = 1000f;
     private bool canJump;
     /****/
     [SerializeField] private Transform groundCheck;

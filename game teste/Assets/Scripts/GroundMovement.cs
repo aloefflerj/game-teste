@@ -9,33 +9,29 @@ public class GroundMovement : MonoBehaviour
     private float thresHold;
     private float width;
     [SerializeField] Camera camera;
+    private float initialY;
+    [SerializeField] float groundVelocity = .5f;
     
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         cameraSize = camera.orthographicSize;
         Vector2 screenPosition = camera.WorldToScreenPoint(transform.position);
-
-        //foreach (Transform child in transform)
-        //{
-            width = transform.GetChild(0).GetComponent<SpriteRenderer>().bounds.size.x;
-            Debug.Log("widht: " + width);
-            
-        //}
+        initialY = transform.position.y;
 
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        //Debug.Log(Screen.width - transform.GetChild(0).transform.localScale.x);
-        transform.position -= new Vector3(0.1f, 0);
+        //Move the gorund
+        transform.position -= new Vector3(groundVelocity, 0);
 
         Vector2 screenPosition = camera.WorldToScreenPoint(transform.position);
-        if ((screenPosition.x) < -100)
+        if ((screenPosition.x) < 0)
         {
-            Destroy(gameObject);
+            transform.position = new Vector2(30, initialY);
         }
             
         Debug.Log("screenPosition: " + (screenPosition.x - width));

@@ -7,7 +7,7 @@ public class BetterJump : MonoBehaviour
     [SerializeField] private Rigidbody2D rigbody;
     /***/
     [Range(0, 5f)] [SerializeField] private float fallMultiplier = 2.5f;
-    [Range(0, 5f)] [SerializeField] private float lowJumpMultiplier = 2f;
+    [Range(0, 10f)] [SerializeField] private float lowJumpMultiplier = 2f;
 
     // Start is called before the first frame update
     void Awake()
