@@ -33,9 +33,6 @@ public class GroundMovement : MonoBehaviour
         {
             transform.position = new Vector2(30, initialY);
         }
-            
-        Debug.Log("screenPosition: " + (screenPosition.x - width));
-        Debug.Log("Screen.width " + (-Screen.width));
-        Debug.Log("width " + (width));
+           
     }
 }
