@@ -94,7 +94,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdb4fa548d3cff64ba7b00a8fc1e7985, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cChord: {fileID: 0}
+  chord: {fileID: 1374230530653886812}
+  c: {fileID: 8300000, guid: d953041105be04540a66c026d8fd2d96, type: 3}
 --- !u!61 &2233178903189941589
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -132,7 +133,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d953041105be04540a66c026d8fd2d96, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

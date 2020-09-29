@@ -5,11 +5,12 @@ using UnityEngine;
 public class Spawner : MonoBehaviour
 {
     public Transform notes;
+    public float timeBeforeSpawn = 6f;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
-        StartCoroutine(TimeSpawn());
+        Invoke("WaitForSpawn", timeBeforeSpawn);
     }
 
     // Update is called once per frame
@@ -29,5 +30,10 @@ public class Spawner : MonoBehaviour
             
             yield return new WaitForSeconds(2f);
         }
+    }
+
+    void WaitForSpawn()
+    {
+        StartCoroutine("TimeSpawn");
     }
 }

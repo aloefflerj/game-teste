@@ -6,18 +6,19 @@ public class Music : MonoBehaviour
 
    
 {
-    [SerializeField] private AudioSource bgMusic;
+    [SerializeField] public AudioSource bgMusic;
     private float musicLenght;
     public string[] _clipNames;
     int i = 0;
 
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         bgMusic = GetComponent<AudioSource>();
         musicLenght = bgMusic.clip.length;
-        StartAudio();
+        bgMusic.Play();
+        //StartAudio();
     }
 
     void StartAudio()
@@ -33,4 +34,5 @@ public class Music : MonoBehaviour
         Invoke("StartAudio", bgMusic.clip.length);    //0.5f is the delay given after a song is over.
 
     }
+
 }
