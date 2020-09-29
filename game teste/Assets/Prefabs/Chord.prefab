@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2233178903189941586}
   - component: {fileID: 2233178903189941589}
   - component: {fileID: 1374230530653886812}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Chord
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -68,10 +68,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 45c7b10c14242cd49b266cba2915b632, type: 3}
+  m_SortingLayerID: 1441207433
+  m_SortingLayer: 1
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: b0272aeb47933d84fba438a09c1cff1f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -94,6 +94,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fdb4fa548d3cff64ba7b00a8fc1e7985, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cChord: {fileID: 0}
 --- !u!61 &2233178903189941589
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -111,7 +112,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2, y: 2}
+    oldSize: {x: 1.5625, y: 1.5625}
     newSize: {x: 2, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

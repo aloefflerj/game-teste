@@ -23,7 +23,6 @@ public class Music : MonoBehaviour
     void StartAudio()
     {
         bgMusic.clip = Resources.Load<AudioClip>(_clipNames[i]) as AudioClip;
-        Debug.Log(bgMusic.clip);
         bgMusic.Play();
 
         i++;

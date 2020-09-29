@@ -10,12 +10,13 @@ public class ChordsTrigger : MonoBehaviour
     {
         cChord = GetComponent<AudioSource>();
         cChord.Stop();
+        
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        transform.position -= new Vector3(.2f, 0);
+        transform.position -= new Vector3(2f, 0);
     }
 
     void OnTriggerEnter2D(Collider2D player)
